@@ -252,7 +252,7 @@ class Address extends \Faker\Provider\Address
         'Тернопіль',
         'Харків',
         'Херсон',
-        'Хмельницьк',
+        'Хмельницький',
         'Черкаси',
         'Чернівці',
         'Чернігів'
@@ -334,7 +334,7 @@ class Address extends \Faker\Provider\Address
         return static::randomElement(static::$cityPrefix);
     }
 
-    public function city()
+    public static function city()
     {
         return static::randomElement(static::$city);
     }
